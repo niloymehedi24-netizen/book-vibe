@@ -1,7 +1,12 @@
 import React from "react";
+import Banner from "../../Components/Shared/NavBar/HomePage/Banner";
 
 const Homepage = () => {
-  return <div>Homepage</div>;
+  return (
+    <div>
+      <Banner></Banner>
+    </div>
+  );
 };
 
 export default Homepage;
